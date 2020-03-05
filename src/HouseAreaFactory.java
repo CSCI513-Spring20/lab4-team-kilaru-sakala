@@ -8,8 +8,8 @@ public class HouseAreaFactory extends HouseFactory{
 		else if(item.equals("Kitchen")) {
 			return new HouseArea("Kitchen");
 		}
-		else if(item.equals("Kitchen")) {
-			return new HouseArea("Kitchen");
+		else if(item.equals("Downstairs")) {
+			return new HouseArea("Downstairs");
 		}
 		else if(item.equals("Upstairs")) {
 			return new HouseArea("Upstairs");
