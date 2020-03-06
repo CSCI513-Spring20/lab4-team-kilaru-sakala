@@ -1,7 +1,6 @@
 import java.io.Serializable;
 
 /**
- * 
  * Composite pattern:  Leaf node
  */
 class Furniture implements Serializable, HouseEntity {
