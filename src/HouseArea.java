@@ -10,9 +10,7 @@ import java.util.List;
 class HouseArea implements Serializable, HouseEntity {
 	
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	// List of children
 	private List<HouseEntity> childGroup = new ArrayList<HouseEntity>();
