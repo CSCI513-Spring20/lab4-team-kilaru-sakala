@@ -5,9 +5,7 @@ import java.io.Serializable;
  * Composite pattern:  Leaf node
  */
 class Furniture implements Serializable, HouseEntity {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	String blockName;
 	public Furniture(String blockName){
